@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 
 /*
@@ -16,8 +17,10 @@ public class AudioManager : MonoBehaviour
     public static AudioManager Instance { get; private set;}
 
     //BGM source loops and is the top AudioSource component in the AudioManager GameObject, SFX source does not loop
-    [SerializeField] private AudioSource bgmSource;
-    [SerializeField] private AudioSource sfxSource;
+    [SerializeField] private AudioSource bgmSource, sfxSource, tenseSource, neutralSource, happySource;
+
+    private AudioSource[] levelAudioSources = new AudioSource[3];
+    [SerializeField] private int currentSourceID = 0;
 
     private void Awake() {
 
@@ -38,11 +41,54 @@ public class AudioManager : MonoBehaviour
         }
     }
 
+    private void Start() {
+        levelAudioSources[0] = tenseSource;
+        levelAudioSources[1] = neutralSource;
+        levelAudioSources[2] = happySource;
+    }
+
     //Plays the given AudioClip as looping background music. Will replace any BGM that is already playing.
     public void PlayBGM(AudioClip clip) {
         bgmSource.Stop();
         bgmSource.clip = clip;
         bgmSource.Play();
+    }
+
+    public void StopAll() {
+        bgmSource.Stop();
+        sfxSource.Stop();
+        tenseSource.Stop();
+        neutralSource.Stop();
+        happySource.Stop();
+    }
+
+    public void PlayLevelMusic(AudioClip tenseClip, AudioClip neutralClip, AudioClip happyClip) {
+        bgmSource.Stop();
+
+        tenseSource.clip = tenseClip;
+        neutralSource.clip = neutralClip;
+        happySource.clip = happyClip;
+
+        tenseSource.volume = 1;
+        neutralSource.volume = 0;
+        happySource.volume = 0;
+
+        tenseSource.Play();
+        neutralSource.Play();
+        happySource.Play();
+
+        currentSourceID = 0;
+    }
+
+    public void TransitionLevelMusic() {
+        currentSourceID = (currentSourceID + 1) % levelAudioSources.Length;
+        for(int i = 0; i < levelAudioSources.Length; i++) {
+            if(i == currentSourceID) {
+                levelAudioSources[i].volume = 1;
+            } else {
+                levelAudioSources[i].volume = 0;
+            }
+        }
     }
     
     //Stops the currently playing BGM, leaving silence.
@@ -53,5 +99,10 @@ public class AudioManager : MonoBehaviour
     //Plays the given AudioClip as a sound effect once at the given volume
     public void PlaySFX(AudioClip clip, float volume) {
         sfxSource.PlayOneShot(clip, volume);
+    }
+
+    //Plays the given AudioClip as a sound effect once at maximum volume
+    public void PlaySFX(AudioClip clip) {
+        sfxSource.PlayOneShot(clip, 1f);
     }
 }
