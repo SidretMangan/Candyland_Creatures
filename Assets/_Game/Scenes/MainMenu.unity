@@ -668,7 +668,7 @@ GameObject:
   - component: {fileID: 257674727}
   - component: {fileID: 257674726}
   m_Layer: 0
-  m_Name: Example Audible Object
+  m_Name: Example SFX Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
