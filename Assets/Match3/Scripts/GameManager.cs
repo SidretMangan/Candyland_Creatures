@@ -361,6 +361,10 @@ public class GameManager : Singleton<GameManager>
 					// score points
 					ScoreManager.Instance.AddScore(piece.scoreValue * multiplier + bonus);
 				}
+				else
+				{
+					m_levelGoalAnimal.AnimalScorePoints(piece, multiplier, bonus);
+;				}
 				
 				// update the scoreStars in the Level Goal component
 				m_levelGoal.UpdateScoreStars(ScoreManager.Instance.CurrentScore);

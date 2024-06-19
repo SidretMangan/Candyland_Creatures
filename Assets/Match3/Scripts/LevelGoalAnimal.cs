@@ -9,56 +9,62 @@ public class LevelGoalAnimal : LevelGoal
 
 	public void UpdateGoals(GamePiece pieceToCheck)
 	{
-		if (pieceToCheck != null)
+		
+
+		UpdateUI();
+	}
+
+	public void AnimalScorePoints(GamePiece piece, int multiplier = 1, int bonus = 0)
+	{
+		if (piece != null)
 		{
+			int calcScore = (piece.scoreValue * multiplier + bonus);
 			switch (animal.animalType)
 			{
 				case Animal.AnimalType.Red:
-					switch (pieceToCheck.matchValue)
+					switch (piece.matchValue)
 					{
 						case MatchValue.Red:
-							ScoreManager.Instance.AddScore((int)(animal.positive * pieceToCheck.scoreValue));
+							ScoreManager.Instance.AddScore((int)(animal.positive * calcScore));
 							break;
 						case MatchValue.Green:
-							ScoreManager.Instance.AddScore((int)(animal.neutral * pieceToCheck.scoreValue));
+							ScoreManager.Instance.AddScore((int)(animal.neutral * calcScore));
 							break;
 						case MatchValue.Blue:
-							ScoreManager.Instance.AddScore((int)(animal.negative * pieceToCheck.scoreValue));
+							ScoreManager.Instance.AddScore((int)(animal.negative * calcScore));
 							break;
 					}
 					break;
 				case Animal.AnimalType.Green:
-					switch (pieceToCheck.matchValue)
+					switch (piece.matchValue)
 					{
 						case MatchValue.Red:
-							ScoreManager.Instance.AddScore((int)(animal.neutral * pieceToCheck.scoreValue));
+							ScoreManager.Instance.AddScore((int)(animal.neutral * calcScore));
 							break;
 						case MatchValue.Green:
-							ScoreManager.Instance.AddScore((int)(animal.positive * pieceToCheck.scoreValue));
+							ScoreManager.Instance.AddScore((int)(animal.positive * calcScore));
 							break;
 						case MatchValue.Blue:
-							ScoreManager.Instance.AddScore((int)(animal.negative * pieceToCheck.scoreValue));
+							ScoreManager.Instance.AddScore((int)(animal.negative * calcScore));
 							break;
 					}
 					break;
 				case Animal.AnimalType.Blue:
-					switch (pieceToCheck.matchValue)
+					switch (piece.matchValue)
 					{
 						case MatchValue.Red:
-							ScoreManager.Instance.AddScore((int)(animal.negative * pieceToCheck.scoreValue));
+							ScoreManager.Instance.AddScore((int)(animal.negative * calcScore));
 							break;
 						case MatchValue.Green:
-							ScoreManager.Instance.AddScore((int)(animal.neutral * pieceToCheck.scoreValue));
+							ScoreManager.Instance.AddScore((int)(animal.neutral * calcScore));
 							break;
 						case MatchValue.Blue:
-							ScoreManager.Instance.AddScore((int)(animal.positive * pieceToCheck.scoreValue));
+							ScoreManager.Instance.AddScore((int)(animal.positive * calcScore));
 							break;
 					}
 					break;
 			}
 		}
-
-		UpdateUI();
 	}
 
 	public void UpdateUI()
@@ -115,5 +121,5 @@ public class Animal
 	[Header("Multipliers")]
 	public float positive = 1.0f;
 	public float neutral = 0.5f;
-	public float negative = -0.5f;
+	public float negative = -1.0f;
 }

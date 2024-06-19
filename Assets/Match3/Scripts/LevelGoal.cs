@@ -18,6 +18,8 @@ public abstract class LevelGoal : Singleton<LevelGoal>
 	// minimum scores used to earn stars
 	public int[] scoreGoals = new int[3] { 1000, 2000, 3000 };
 
+	public int startingScore = 500;
+
 	public LevelCounter levelCounter = LevelCounter.Moves;
 
 	// seconds if levelcounter is time, moves if level counter is moves
@@ -42,6 +44,10 @@ public abstract class LevelGoal : Singleton<LevelGoal>
 
 	public void Init()
 	{
+
+		ScoreManager.Instance.AddScore(startingScore);
+		UIManager.Instance.scoreMeter.UpdateScoreMeter(ScoreManager.Instance.CurrentScore,
+						scoreStars);
 
 		// reset scoreStars
 		scoreStars = 0;

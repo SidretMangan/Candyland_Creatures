@@ -258,7 +258,7 @@ public class Board : MonoBehaviour
 	// set the Camera position and parameters to center the Board onscreen with a border
 	void SetupCamera()
 	{
-		Camera.main.transform.position = new Vector3((float)(width - 1) / 2f, (float)(height - 1) / 2f, -10f);
+		Camera.main.transform.position = new Vector3((float)(width - 1) / 2f, (float)(height), -10f);
 
 		float aspectRatio = (float)Screen.width / (float)Screen.height;
 
