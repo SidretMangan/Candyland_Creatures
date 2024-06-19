@@ -18,12 +18,10 @@ public abstract class LevelGoal : Singleton<LevelGoal>
 	// minimum scores used to earn stars
 	public int[] scoreGoals = new int[3] { 1000, 2000, 3000 };
 
-	// number of moves left in this level (replaces GameManager movesLeft)
-	public int movesLeft = 30;
-
-	public int timeLeft = 60;
-
 	public LevelCounter levelCounter = LevelCounter.Moves;
+
+	// seconds if levelcounter is time, moves if level counter is moves
+	public int counterLimit = 30;
 
 	int m_maxTime;
 
@@ -33,11 +31,11 @@ public abstract class LevelGoal : Singleton<LevelGoal>
 
 		if (levelCounter == LevelCounter.Timer)
 		{
-			m_maxTime = timeLeft;
+			m_maxTime = counterLimit;
 
 			if (UIManager.Instance != null && UIManager.Instance.timer != null)
 			{
-				UIManager.Instance.timer.InitTimer(timeLeft);
+				UIManager.Instance.timer.InitTimer(counterLimit);
 			}
 		}
 	}
@@ -92,26 +90,26 @@ public abstract class LevelGoal : Singleton<LevelGoal>
 	// decrement the timeLeft each second
 	IEnumerator CountdownRoutine()
 	{
-		while (timeLeft > 0)
+		while (counterLimit > 0)
 		{
 			yield return new WaitForSeconds(1f);
-			timeLeft--;
+			counterLimit--;
 
 			if (UIManager.Instance != null && UIManager.Instance.timer != null)
 			{
-				UIManager.Instance.timer.UpdateTimer(timeLeft);
+				UIManager.Instance.timer.UpdateTimer(counterLimit);
 			}
 		}
 	}
 
 	public void AddTime(int timeValue)
 	{
-		timeLeft += timeValue;
-		timeLeft = Mathf.Clamp(timeLeft, 0, m_maxTime);
+		counterLimit += timeValue;
+		counterLimit = Mathf.Clamp(counterLimit, 0, m_maxTime);
 
 		if (UIManager.Instance != null && UIManager.Instance.timer != null)
 		{
-			UIManager.Instance.timer.UpdateTimer(timeLeft);
+			UIManager.Instance.timer.UpdateTimer(counterLimit);
 		}
 	}
 

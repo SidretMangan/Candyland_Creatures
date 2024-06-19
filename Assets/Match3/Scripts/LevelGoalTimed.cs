@@ -33,7 +33,7 @@ public class LevelGoalTimed : LevelGoal
         }
 
         // end the game if we have no moves left
-        return (timeLeft <= 0);
+        return (counterLimit <= 0);
     }
 
 

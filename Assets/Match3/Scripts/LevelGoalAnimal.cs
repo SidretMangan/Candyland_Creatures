@@ -5,65 +5,53 @@ using UnityEngine.XR;
 
 public class LevelGoalAnimal : LevelGoal
 {
-	public enum AnimalType
-	{
-		Red,
-		Green,
-		Blue
-	}
-
-	public AnimalType animalType;
-
-	[Header("Multipliers")]
-	public float positiveMultiplier = 1.0f;
-	public float neutralMultiplier = 0.5f;
-	public float negativeMultiplier = -0.5f;
+	public Animal animal;
 
 	public void UpdateGoals(GamePiece pieceToCheck)
 	{
 		if (pieceToCheck != null)
 		{
-			switch (animalType)
+			switch (animal.animalType)
 			{
-				case AnimalType.Red:
+				case Animal.AnimalType.Red:
 					switch (pieceToCheck.matchValue)
 					{
 						case MatchValue.Red:
-							ScoreManager.Instance.AddScore((int)(positiveMultiplier * pieceToCheck.scoreValue));
+							ScoreManager.Instance.AddScore((int)(animal.positive * pieceToCheck.scoreValue));
 							break;
 						case MatchValue.Green:
-							ScoreManager.Instance.AddScore((int)(neutralMultiplier * pieceToCheck.scoreValue));
+							ScoreManager.Instance.AddScore((int)(animal.neutral * pieceToCheck.scoreValue));
 							break;
 						case MatchValue.Blue:
-							ScoreManager.Instance.AddScore((int)(negativeMultiplier * pieceToCheck.scoreValue));
+							ScoreManager.Instance.AddScore((int)(animal.negative * pieceToCheck.scoreValue));
 							break;
 					}
 					break;
-				case AnimalType.Green:
+				case Animal.AnimalType.Green:
 					switch (pieceToCheck.matchValue)
 					{
 						case MatchValue.Red:
-							ScoreManager.Instance.AddScore((int)(neutralMultiplier * pieceToCheck.scoreValue));
+							ScoreManager.Instance.AddScore((int)(animal.neutral * pieceToCheck.scoreValue));
 							break;
 						case MatchValue.Green:
-							ScoreManager.Instance.AddScore((int)(positiveMultiplier * pieceToCheck.scoreValue));
+							ScoreManager.Instance.AddScore((int)(animal.positive * pieceToCheck.scoreValue));
 							break;
 						case MatchValue.Blue:
-							ScoreManager.Instance.AddScore((int)(negativeMultiplier * pieceToCheck.scoreValue));
+							ScoreManager.Instance.AddScore((int)(animal.negative * pieceToCheck.scoreValue));
 							break;
 					}
 					break;
-				case AnimalType.Blue:
+				case Animal.AnimalType.Blue:
 					switch (pieceToCheck.matchValue)
 					{
 						case MatchValue.Red:
-							ScoreManager.Instance.AddScore((int)(negativeMultiplier * pieceToCheck.scoreValue));
+							ScoreManager.Instance.AddScore((int)(animal.negative * pieceToCheck.scoreValue));
 							break;
 						case MatchValue.Green:
-							ScoreManager.Instance.AddScore((int)(neutralMultiplier * pieceToCheck.scoreValue));
+							ScoreManager.Instance.AddScore((int)(animal.neutral * pieceToCheck.scoreValue));
 							break;
 						case MatchValue.Blue:
-							ScoreManager.Instance.AddScore((int)(positiveMultiplier * pieceToCheck.scoreValue));
+							ScoreManager.Instance.AddScore((int)(animal.positive * pieceToCheck.scoreValue));
 							break;
 					}
 					break;
@@ -93,11 +81,11 @@ public class LevelGoalAnimal : LevelGoal
 		}
 		if (levelCounter == LevelCounter.Timer)
 		{
-			return (timeLeft <= 0);
+			return (counterLimit <= 0);
 		}
 		else
 		{
-			return (movesLeft <= 0);
+			return (counterLimit <= 0);
 		}
 	}
 
@@ -109,4 +97,23 @@ public class LevelGoalAnimal : LevelGoal
 		}
 		return false;
 	}
+}
+
+[System.Serializable]
+
+public class Animal
+{
+	public enum AnimalType
+	{
+		Red,
+		Green,
+		Blue
+	}
+
+	public AnimalType animalType;
+
+	[Header("Multipliers")]
+	public float positive = 1.0f;
+	public float neutral = 0.5f;
+	public float negative = -0.5f;
 }

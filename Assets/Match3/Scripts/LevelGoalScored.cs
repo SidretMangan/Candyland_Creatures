@@ -33,7 +33,7 @@ public class LevelGoalScored : LevelGoal
 		}
 
 		// end the game if we have no moves left
-		return (movesLeft == 0);
+		return (counterLimit == 0);
 	}
 
 }

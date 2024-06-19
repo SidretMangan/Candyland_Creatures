@@ -91,7 +91,7 @@ public class GameManager : Singleton<GameManager>
 		}
 
 		// update the moves left UI
-		m_levelGoal.movesLeft++;
+		m_levelGoal.counterLimit++;
 		UpdateMoves();
 
 		// start the main game loop
@@ -105,12 +105,12 @@ public class GameManager : Singleton<GameManager>
 		if (m_levelGoal.levelCounter == LevelCounter.Moves)
 		{
 			// decrement a move
-			m_levelGoal.movesLeft--;
+			m_levelGoal.counterLimit--;
 
 			// update the UI
 			if (UIManager.Instance != null && UIManager.Instance.movesLeftText != null)
 			{
-				UIManager.Instance.movesLeftText.text = m_levelGoal.movesLeft.ToString();
+				UIManager.Instance.movesLeftText.text = m_levelGoal.counterLimit.ToString();
 			}
 		}
 	}
@@ -152,11 +152,11 @@ public class GameManager : Singleton<GameManager>
 
 				if (m_levelGoal.levelCounter == LevelCounter.Timer)
 				{
-					UIManager.Instance.messageWindow.ShowTimedGoal(m_levelGoal.timeLeft);
+					UIManager.Instance.messageWindow.ShowTimedGoal(m_levelGoal.counterLimit);
 				}
 				else
 				{
-					UIManager.Instance.messageWindow.ShowMovesGoal(m_levelGoal.movesLeft);
+					UIManager.Instance.messageWindow.ShowMovesGoal(m_levelGoal.counterLimit);
 				}
 
 				if (m_levelGoalCollected != null)
