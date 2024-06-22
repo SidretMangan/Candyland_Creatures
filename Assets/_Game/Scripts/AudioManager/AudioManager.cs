@@ -72,6 +72,17 @@ public class AudioManager : MonoBehaviour
         ApplyVolumeToBGMSources();
     }
 
+    public void SetMuteOnBGM(bool mute) {
+        bgmSource.mute = mute;
+        tenseSource.mute = mute;
+        neutralSource.mute = mute;
+        happySource.mute = mute;
+    }
+
+    public void SetMuteOnSFX(bool mute) {
+        sfxSource.mute = mute;
+    }
+
     private void ApplyVolumeToBGMSources() {
         bgmSource.volume = masterVol * bgmVol;
         for(int i = 0; i < levelAudioSources.Length; i++) {
