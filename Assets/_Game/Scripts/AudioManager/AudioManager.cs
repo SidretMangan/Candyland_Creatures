@@ -22,7 +22,7 @@ public class AudioManager : MonoBehaviour
 
     // The below fields are used for the smooth transition between tenseSource, neutralSource, and happySource
     private AudioSource[] levelAudioSources = new AudioSource[3];
-    [SerializeField] private int currentSourceID = 0;
+    [SerializeField] private int currentSourceID;
 
     // The below fields are added to allow other scripts to more easily change the volume
     [SerializeField] private float masterVol, sfxVol, bgmVol;
@@ -43,10 +43,6 @@ public class AudioManager : MonoBehaviour
         if (tenseSource == null) Debug.LogError("tenseSource not found!");
         if (neutralSource == null) Debug.LogError("neutralSource not found!");
         if (happySource == null) Debug.LogError("happySource not found!");
-
-        masterVol = 0.5f;
-        bgmVol = 0.5f;
-        sfxVol = 0.5f;
     }
 
     private void Start() {
@@ -54,6 +50,12 @@ public class AudioManager : MonoBehaviour
         levelAudioSources[0] = tenseSource;
         levelAudioSources[1] = neutralSource;
         levelAudioSources[2] = happySource;
+
+        masterVol = 0.5f;
+        bgmVol = 0.5f;
+        sfxVol = 0.5f;
+        currentSourceID = 0;
+        ApplyVolumeToBGMSources();
     }
 
     public void SetBGMVolume(float volume) {
@@ -113,7 +115,7 @@ public class AudioManager : MonoBehaviour
         happySource.clip = happyClip;
 
         // Sets the tense source volume to 1, all others to 0
-        tenseSource.volume = 1;
+        tenseSource.volume = bgmVol * masterVol;
         neutralSource.volume = 0;
         happySource.volume = 0;
 
