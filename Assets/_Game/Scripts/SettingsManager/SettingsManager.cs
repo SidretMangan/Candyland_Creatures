@@ -12,7 +12,8 @@ public class SettingsManager : MonoBehaviour
     [SerializeField] private Button hapticsToggleBtn, openBtn, closeBtn, masterVolumeMuteBtn, sfxVolumeMuteBtn, bgmVolumeMuteBtn;
     [SerializeField] private GameObject settingsMenuObject;
     [SerializeField] private TextMeshProUGUI hapticsTextbox;
-    [SerializeField] private bool hapticsActivated, masterMuted, sfxMuted, bgmMuted;
+    private bool hapticsActivated, masterMuted, sfxMuted, bgmMuted;
+    private Animator anim;
     
     // Start is called before the first frame update
     void Awake()
@@ -21,6 +22,8 @@ public class SettingsManager : MonoBehaviour
         masterMuted = false;
         sfxMuted = false;
         bgmMuted = false;
+
+        anim = settingsMenuObject.GetComponent<Animator>();
 
         masterVolumeSlider.onValueChanged.AddListener(delegate {
             AudioManager.Instance.SetMasterVolume(masterVolumeSlider.value);
@@ -33,10 +36,10 @@ public class SettingsManager : MonoBehaviour
         });
 
         openBtn.onClick.AddListener(() => {
-            settingsMenuObject.SetActive(true);
+            anim.Play("Open");
         });
         closeBtn.onClick.AddListener(() => {
-            settingsMenuObject.SetActive(false);
+            anim.Play("Close");
         });
         hapticsToggleBtn.onClick.AddListener(() => {
             hapticsActivated = !hapticsActivated;
@@ -63,8 +66,6 @@ public class SettingsManager : MonoBehaviour
             AudioManager.Instance.SetMuteOnBGM(masterMuted || bgmMuted);
             bgmVolumeMuteBtn.GetComponentInChildren<TextMeshProUGUI>().text = !bgmMuted ? "O" : "X";
         });
-
-        settingsMenuObject.SetActive(false);
     }
 
     // Update is called once per frame
