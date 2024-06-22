@@ -24,6 +24,9 @@ public class AudioManager : MonoBehaviour
     private AudioSource[] levelAudioSources = new AudioSource[3];
     [SerializeField] private int currentSourceID = 0;
 
+    // The below fields are added to allow other scripts to more easily change the volume
+    [SerializeField] private float masterVol, sfxVol, bgmVol;
+
     private void Awake() {
 
         // Code to generate singleton.
@@ -40,6 +43,10 @@ public class AudioManager : MonoBehaviour
         if (tenseSource == null) Debug.LogError("tenseSource not found!");
         if (neutralSource == null) Debug.LogError("neutralSource not found!");
         if (happySource == null) Debug.LogError("happySource not found!");
+
+        masterVol = 0.5f;
+        bgmVol = 0.5f;
+        sfxVol = 0.5f;
     }
 
     private void Start() {
@@ -47,6 +54,31 @@ public class AudioManager : MonoBehaviour
         levelAudioSources[0] = tenseSource;
         levelAudioSources[1] = neutralSource;
         levelAudioSources[2] = happySource;
+    }
+
+    public void SetBGMVolume(float volume) {
+        bgmVol = volume;
+        ApplyVolumeToBGMSources();
+    }
+
+    public void SetSFXVolume(float volume) {
+        sfxVol = volume;
+    }
+
+    public void SetMasterVolume(float volume) {
+        masterVol = volume;
+        ApplyVolumeToBGMSources();
+    }
+
+    private void ApplyVolumeToBGMSources() {
+        bgmSource.volume = masterVol * bgmVol;
+        for(int i = 0; i < levelAudioSources.Length; i++) {
+            if(i == currentSourceID) {
+                levelAudioSources[i].volume = masterVol * bgmVol;
+            } else {
+                levelAudioSources[i].volume = 0;
+            }
+        }
     }
 
     // Plays the given AudioClip as looping background music. Will replace any BGM that is already playing.
@@ -111,7 +143,7 @@ public class AudioManager : MonoBehaviour
     public void TransitionLevelMusic(int sourceID) {
         for(int i = 0; i < levelAudioSources.Length; i++) {
             if(i == sourceID) {
-                StartCoroutine(StartFade(levelAudioSources[i], 0.5f, 1));
+                StartCoroutine(StartFade(levelAudioSources[i], 0.5f, bgmVol * masterVol));
             } else {
                 StartCoroutine(StartFade(levelAudioSources[i], 0.5f, 0));
             }
@@ -146,6 +178,6 @@ public class AudioManager : MonoBehaviour
 
     // Plays the given AudioClip as a sound effect once at maximum volume
     public void PlaySFX(AudioClip clip) {
-        sfxSource.PlayOneShot(clip, 1f);
+        sfxSource.PlayOneShot(clip,  sfxVol * masterVol);
     }
 }
