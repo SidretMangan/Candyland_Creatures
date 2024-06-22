@@ -16,6 +16,8 @@ public class LevelGoalAnimal : LevelGoal
 
 	public void AnimalScorePoints(GamePiece piece, int multiplier = 1, int bonus = 0)
 	{
+		if(ScoreManager.Instance.CurrentScore <= 0 || ScoreManager.Instance.CurrentScore >= scoreGoals[^1]) return;
+
 		if (piece != null)
 		{
 			int calcScore = (piece.scoreValue * multiplier + bonus);
@@ -91,7 +93,7 @@ public class LevelGoalAnimal : LevelGoal
 		}
 		else
 		{
-			return (counterLimit <= 0);
+			return (counterLimit <= 0 || ScoreManager.Instance.CurrentScore < 0);
 		}
 	}
 

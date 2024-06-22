@@ -2811,15 +2811,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreStars: 0
-  scoreGoals: e8030000
-  startingScore: 500
+  scoreGoals: b80b0000
+  startingScore: 1500
   levelCounter: 1
   counterLimit: 30
   animal:
     animalType: 0
     positive: 1
     neutral: 0.5
-    negative: -1
+    negative: -1.5
 --- !u!1 &1005665932
 GameObject:
   m_ObjectHideFlags: 0
@@ -4404,9 +4404,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a780fa0c465746b9a96d9312f1126ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 5
-  height: 5
-  borderSize: 2
+  width: 9
+  height: 9
+  borderSize: 1.5
   tileNormalPrefab: {fileID: 187378, guid: 40e936c9a5bf249fd961db8ef23fbc7b, type: 3}
   tileObstaclePrefab: {fileID: 1000010554755960, guid: 4e5164a8032474304bcbd2ba0c3eae7e, type: 3}
   gamePiecePrefabs:

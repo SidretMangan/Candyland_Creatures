@@ -13,7 +13,7 @@ public class Board : MonoBehaviour
 	public int height;
 
 	// margin outside Board for calculating camera field of view
-	public int borderSize;
+	public float borderSize;
 
 	// Prefab representing a single tile
 	public GameObject tileNormalPrefab;
