@@ -93,7 +93,7 @@ public class LevelGoalAnimal : LevelGoal
 		}
 		else
 		{
-			return (counterLimit <= 0 || ScoreManager.Instance.CurrentScore < 0);
+			return (counterLimit <= 0 || ScoreManager.Instance.CurrentScore <= 0f);
 		}
 	}
 
