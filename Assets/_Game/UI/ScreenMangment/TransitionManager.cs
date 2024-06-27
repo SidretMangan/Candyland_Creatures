@@ -1,42 +1,59 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement; 
 using UnityEngine;
 
 
 public class TransitionManager : MonoBehaviour
-{   
+{
+
+    public CanvasGroup sceneScreen;
+    public bool fadein = false;
+    public bool fadeout = false; 
+
+    public float duration = 1.0f;
+
+    private void Update()
+    {
+        if (fadein == true)
+        {
+            if (sceneScreen.alpha < 1 )
+            {
+                sceneScreen.alpha += duration * Time.deltaTime;
+                if (sceneScreen.alpha >= 1)
+                {
+                    fadein = false;
+                } 
+            }
+        }
+
+        if (fadeout == true)
+        {
+            if (sceneScreen.alpha >= 0)
+            {
+                sceneScreen.alpha -= duration * Time.deltaTime;
+                if (sceneScreen.alpha == 0)
+                {
+                    fadeout = false;
+                }
+            }
+        }
+
+    }
+
+
+
+    public void fadeIn () {
+
+        fadein = true; 
   
-    public RectTransform mainScreen, lvlsuccess, failScreeen; 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-     
     }
 
-   
+    public void fadeOut() {
 
-    public void fadeIn () { 
-    
-    
-    }
 
-    public void fadeOut() {  
-
+        fadeout = true; 
     }
     
-    public void SwipeScreen()
-    {
-
-    }
-
-    public void SlideScreen() { 
-    
-    
-    } 
-
-
-    
-    
-
+  
 }
