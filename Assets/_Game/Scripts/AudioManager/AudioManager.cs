@@ -21,21 +21,23 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioSource bgmSource, sfxSource, tenseSource, neutralSource, happySource;
 
     // The below fields are used for the smooth transition between tenseSource, neutralSource, and happySource
-    private AudioSource[] levelAudioSources = new AudioSource[3];
-    [SerializeField] private int currentSourceID;
+    private AudioSource[] levelAudioSources = new AudioSource[3];private int currentSourceID;
 
     // The below fields are added to allow other scripts to more easily change the volume
-    [SerializeField] private float masterVol, sfxVol, bgmVol;
+    private float masterVol, sfxVol, bgmVol;
 
     private void Awake() {
 
         // Code to generate singleton.
         // IMPORTANT: We may replace this with the alternate Singleton architecture eventually (by attaching SingletonDontDestroy script to AudioManager GameObject)
-        if (Instance != null && Instance != this) {
-            Destroy(this);
-        } else { 
-            Instance = this;
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+            return;
         }
+
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
 
         // If the appropriate audio sources were not set in the inspector, we should log an error.
         if (bgmSource == null) Debug.LogError("bgmSource not found!");

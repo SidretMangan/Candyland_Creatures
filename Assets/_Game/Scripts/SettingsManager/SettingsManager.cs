@@ -8,6 +8,8 @@ using UnityEngine.UI;
 
 public class SettingsManager : MonoBehaviour
 {
+    public static SettingsManager Instance { get; private set;}
+
     [SerializeField] private Slider masterVolumeSlider, sfxVolumeSlider, bgmVolumeSlider;
     [SerializeField] private Button hapticsToggleBtn, openBtn, closeBtn, masterVolumeMuteBtn, sfxVolumeMuteBtn, bgmVolumeMuteBtn;
     [SerializeField] private GameObject settingsMenuObject;
@@ -18,6 +20,15 @@ public class SettingsManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+
         hapticsActivated = true;
         masterMuted = false;
         sfxMuted = false;
