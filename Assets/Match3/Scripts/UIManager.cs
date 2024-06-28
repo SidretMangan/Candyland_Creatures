@@ -29,6 +29,8 @@ public class UIManager : Singleton<UIManager>
 
 	public GameObject movesCounter;
 
+	public GameOverlay gameOverlay;
+
 	public Timer timer;
 
 

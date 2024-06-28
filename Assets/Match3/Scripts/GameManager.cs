@@ -7,6 +7,7 @@ using System.Collections;
 // the GameManager is the master controller for the GamePlay
 public class GameManager : Singleton<GameManager>
 {
+	public bool autoStart;
 
 	// reference to the Board
 	Board m_board;
@@ -53,6 +54,11 @@ public class GameManager : Singleton<GameManager>
 		// cache a reference to the Board
 		m_board = GameObject.FindObjectOfType<Board>().GetComponent<Board>();
 
+		if (autoStart)
+		{
+			ReloadScene();
+			BeginGame();
+		}
 	}
 
 	void Start()
@@ -287,6 +293,7 @@ public class GameManager : Singleton<GameManager>
 
 	void ShowWinScreen()
 	{
+
 		if (UIManager.Instance != null && UIManager.Instance.messageWindow != null)
 		{
 			UIManager.Instance.messageWindow.GetComponent<RectXformMover>().MoveOn();
@@ -303,6 +310,7 @@ public class GameManager : Singleton<GameManager>
 			{
 				UIManager.Instance.messageWindow.ShowGoalImage(UIManager.Instance.messageWindow.goalCompleteIcon);
 			}
+
 		}
 
 		if (SoundManager.Instance != null)
@@ -337,6 +345,12 @@ public class GameManager : Singleton<GameManager>
 			}
 
 		}
+		if (UIManager.Instance != null && UIManager.Instance.gameOverlay != null)
+		{
+			UIManager.Instance.gameOverlay.LosePanel.SetActive(true);
+			UIManager.Instance.gameOverlay.InfoPanel.SetActive(false);
+		}
+
 		if (SoundManager.Instance != null)
 		{
 			SoundManager.Instance.PlayLoseSound();
@@ -364,8 +378,9 @@ public class GameManager : Singleton<GameManager>
 				else
 				{
 					m_levelGoalAnimal.AnimalScorePoints(piece, multiplier, bonus);
-;				}
-				
+					;
+				}
+
 				// update the scoreStars in the Level Goal component
 				m_levelGoal.UpdateScoreStars(ScoreManager.Instance.CurrentScore);
 
@@ -398,7 +413,7 @@ public class GameManager : Singleton<GameManager>
 		{
 			m_levelGoalCollected.UpdateGoals(pieceToCheck);
 		}
-		if(m_levelGoalAnimal != null)
+		if (m_levelGoalAnimal != null)
 		{
 			m_levelGoalAnimal.UpdateGoals(pieceToCheck);
 		}
