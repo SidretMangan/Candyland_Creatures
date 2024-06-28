@@ -1,0 +1,2093 @@
+fileFormatVersion: 2
+guid: 877294e8877794a438cc0a3c13ec7cdc
+importerOverride:
+  nativeImporterType: 2089858483
+  scriptedImporterType:
+    serializedVersion: 2
+    Hash: b10b55a1aa6a1aa32521bc0cab59632e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: <Rectangle> - Pixel Layer
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3358
+      y: 923
+      width: 479
+      height: 130
+    spriteID: 20023c39cc9568d4ba172dc72386b79f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3358, y: 923}
+    spritePosition: {x: 265, y: 2858}
+  - name: Katman 12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3257
+      y: 251
+      width: 556
+      height: 206
+    spriteID: 7e4e1b757821de24a94a389bfb80e1ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3257, y: 251}
+    spritePosition: {x: 228, y: 2816}
+  - name: "Parlakl\u0131k/Kontrast 1"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3257
+      y: 4
+      width: 614
+      height: 239
+    spriteID: 1cb68dae23f881b498b0b83b7fe1bab3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3257, y: 4}
+    spritePosition: {x: 199, y: 2794}
+  - name: <Rectangle> - Pixel Layer kopya 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1606
+      y: 670
+      width: 430
+      height: 245
+    spriteID: 9ba876665afc10b45a932a4f828c8497
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1606, y: 670}
+    spritePosition: {x: 176, y: 2457}
+  - name: <Rectangle> - Pixel Layer
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1540
+      y: 1243
+      width: 428
+      height: 187
+    spriteID: 580da5c74145f4a4a8570135b45baab0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1540, y: 1243}
+    spritePosition: {x: 161, y: 2220}
+  - name: pngwing.com (36) kopya 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1976
+      y: 1243
+      width: 298
+      height: 262
+    spriteID: 23f535e85fb9227409c7b3a89b5c70e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1976, y: 1243}
+    spritePosition: {x: 2299, y: 3040}
+  - name: pngwing.com (36)
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2282
+      y: 1243
+      width: 298
+      height: 262
+    spriteID: 4b7288aba2f48ab43897e19c792be8f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2282, y: 1243}
+    spritePosition: {x: 1903, y: 3040}
+  - name: <Path> - Pixel Layer kopya 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1243
+      width: 300
+      height: 298
+    spriteID: 947506b462014814e97014ba158c64ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1243}
+    spritePosition: {x: 1554, y: 2531}
+  - name: <Compound Path> - Pixel Layer kopya
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2218
+      y: 923
+      width: 166
+      height: 167
+    spriteID: f3f965624770bb04e9c5d08877349908
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2218, y: 923}
+    spritePosition: {x: 1381, y: 2645}
+  - name: <Path> - Pixel Layer
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 746
+      y: 1549
+      width: 166
+      height: 178
+    spriteID: 3cc9f0750a2dcd04285eb3b071686c19
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 746, y: 1549}
+    spritePosition: {x: 1381, y: 2899}
+  - name: <Path> - Pixel Layer
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2482
+      y: 923
+      width: 166
+      height: 167
+    spriteID: de93fabe8fe4e0341b369f5324829e53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2482, y: 923}
+    spritePosition: {x: 1381, y: 3146}
+  - name: exit icon
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3845
+      y: 923
+      width: 166
+      height: 174
+    spriteID: 34de25f23a842ae4ba41555947564784
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3845, y: 923}
+    spritePosition: {x: 1616, y: 3139}
+  - name: 'chapter transition screen '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2796
+      y: 4
+      width: 453
+      height: 420
+    spriteID: a4ca92d35ed366942bac55b8f0cce1a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2796, y: 4}
+    spritePosition: {x: 176, y: 237}
+  - name: <Rectangle> - Pixel Layer
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 545
+      y: 545
+      width: 512
+      height: 681
+    spriteID: 29a982ec475bca64eb0999ede12c019e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 545, y: 545}
+    spritePosition: {x: 856, y: 1447}
+  - name: <Rectangle> - Pixel Layer kopya 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 690
+      height: 533
+    spriteID: 899aa92fc28758348b3b7d376785cb4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 208, y: 749}
+  - name: Katman 13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1065
+      y: 545
+      width: 533
+      height: 554
+    spriteID: fea53bdc45a97564d8bc417b3e29b8ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1065, y: 545}
+    spritePosition: {x: 997, y: 738}
+  - name: <Rectangle> - Pixel Layer kopya 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 545
+      width: 533
+      height: 690
+    spriteID: f853f47ac2ad41c48938c2505632ec03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 545}
+    spritePosition: {x: 198, y: 1438}
+  - name: <Path> - Pixel Layer kopya 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3982
+      y: 670
+      width: 108
+      height: 108
+    spriteID: 94d102182390e3542875721faed046e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3982, y: 670}
+    spritePosition: {x: 1001, y: 3156}
+  - name: <Path> - Pixel Layer kopya 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3982
+      y: 786
+      width: 108
+      height: 108
+    spriteID: f87b36c59d1f3054eb85bbe75b140687
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3982, y: 786}
+    spritePosition: {x: 943, y: 3156}
+  - name: <Path> - Pixel Layer kopya 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3942
+      y: 1243
+      width: 108
+      height: 108
+    spriteID: 6ff173dd4166c04469fa0e49efd990d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3942, y: 1243}
+    spritePosition: {x: 656, y: 3156}
+  - name: <Path> - Pixel Layer kopya
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3942
+      y: 1359
+      width: 108
+      height: 108
+    spriteID: c92b4758f44178a478f26b5479ef3c02
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3942, y: 1359}
+    spritePosition: {x: 598, y: 3156}
+  - name: <Path> - Pixel Layer kopya 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3879
+      y: 4
+      width: 181
+      height: 180
+    spriteID: 1299e3ee030d4884d99dd6a9a796bce4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3879, y: 4}
+    spritePosition: {x: 1021, y: 3171}
+  - name: <Path> - Pixel Layer
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2920
+      y: 923
+      width: 108
+      height: 108
+    spriteID: 5f1315b8da4744c4db9f0161717fb4f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2920, y: 923}
+    spritePosition: {x: 172, y: 3156}
+  - name: <Rectangle> - Pixel Layer
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1065
+      y: 1107
+      width: 915
+      height: 51
+    spriteID: 25907c4dade00b44da8d91e1631afd4f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1065, y: 1107}
+    spritePosition: {x: 208, y: 3231}
+  - name: Katman 11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2596
+      y: 545
+      width: 935
+      height: 71
+    spriteID: 36bba67304ba9c24296e77ea47c3cacb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2596, y: 545}
+    spritePosition: {x: 198, y: 3220}
+  - name: <Rectangle> - Pixel Layer
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1606
+      y: 545
+      width: 982
+      height: 117
+    spriteID: 782772f369787f846ba3508198762109
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1606, y: 545}
+    spritePosition: {x: 176, y: 3196}
+  - name: Katman 10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3821
+      y: 251
+      width: 176
+      height: 181
+    spriteID: 2d7d39e36c574d24584bbc17e075a97a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3821, y: 251}
+    spritePosition: {x: 1616, y: 2899}
+  - name: Katman 9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2656
+      y: 923
+      width: 148
+      height: 148
+    spriteID: bf203feee5a8c3148bf8222d7e0261f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2656, y: 923}
+    spritePosition: {x: 1632, y: 2921}
+  - name: "Parlakl\u0131k/Kontrast 3"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3796
+      y: 670
+      width: 178
+      height: 179
+    spriteID: a660ef9e37e46ef45b5ee7d8a4aefda8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3796, y: 670}
+    spritePosition: {x: 1618, y: 2902}
+  - name: pngwing.com (36) kopya 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 312
+      y: 1243
+      width: 299
+      height: 275
+    spriteID: ee0a6ea9b42ebfd4db5b357df7b075c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 312, y: 1243}
+    spritePosition: {x: 2447, y: 1505}
+  - name: pngwing.com (36) kopya
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 619
+      y: 1243
+      width: 299
+      height: 275
+    spriteID: cd3b59c8f1a2d2042ad66f28dbbeac01
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 619, y: 1243}
+    spritePosition: {x: 1773, y: 1503}
+  - name: pngwing.com (36)
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2588
+      y: 1243
+      width: 298
+      height: 262
+    spriteID: adf96279e0693a2469b9a12bae64a4b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2588, y: 1243}
+    spritePosition: {x: 2115, y: 1509}
+  - name: Complete!
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2044
+      y: 670
+      width: 430
+      height: 245
+    spriteID: 58f64f8ec75865b4eb97082f46f24fb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2044, y: 670}
+    spritePosition: {x: 2045, y: 1752}
+  - name: level
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3200
+      y: 1243
+      width: 363
+      height: 207
+    spriteID: 5e2e71b920813a043bd5fa60da066f5b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3200, y: 1243}
+    spritePosition: {x: 2285, y: 1251}
+  - name: Quit
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3571
+      y: 1243
+      width: 363
+      height: 207
+    spriteID: ab4ca7b74f6d6af47bdb2f48bf5450c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3571, y: 1243}
+    spritePosition: {x: 1888, y: 1251}
+  - name: exit icon
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1606
+      y: 923
+      width: 166
+      height: 174
+    spriteID: 8008e9e8b5ec45f4a983afd862554735
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1606, y: 923}
+    spritePosition: {x: 2477, y: 1795}
+  - name: <Rectangle> - Pixel Layer kopya 7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 702
+      y: 4
+      width: 690
+      height: 533
+    spriteID: a8d0142175147c047a75ebbb06f6491a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 702, y: 4}
+    spritePosition: {x: 1918, y: 1374}
+  - name: Settings kopya 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2482
+      y: 670
+      width: 430
+      height: 245
+    spriteID: 705ce034493d7194b8a2178676cc4230
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2482, y: 670}
+    spritePosition: {x: 2035, y: 2549}
+  - name: Katman 8 kopya
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3150
+      y: 432
+      width: 96
+      height: 97
+    spriteID: 8bacc05fc6e6ba843a3e5d865670139b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3150, y: 432}
+    spritePosition: {x: 2219, y: 2305}
+  - name: <Rectangle> - Pixel Layer kopya 13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3200
+      y: 1458
+      width: 297
+      height: 39
+    spriteID: f6c6b5feacbc73441903e7a94fd18367
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3200, y: 1458}
+    spritePosition: {x: 2005, y: 2339}
+  - name: Katman 6 kopya
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1540
+      y: 1438
+      width: 346
+      height: 84
+    spriteID: 10fd434ed6e54bc4fb5904b9d10aad93
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1540, y: 1438}
+    spritePosition: {x: 1981, y: 2313}
+  - name: Katman 8 kopya
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2812
+      y: 923
+      width: 96
+      height: 97
+    spriteID: fc543a15cb608fd47ae625102f8867ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2812, y: 923}
+    spritePosition: {x: 2219, y: 2460}
+  - name: <Rectangle> - Pixel Layer kopya 13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3571
+      y: 1458
+      width: 297
+      height: 39
+    spriteID: 4f6201dc678b18c42bac3dace37fa0fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3571, y: 1458}
+    spritePosition: {x: 2005, y: 2494}
+  - name: Katman 6 kopya
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2796
+      y: 432
+      width: 346
+      height: 84
+    spriteID: 7396bfe8989a2cc4aa0cab3bb10c0743
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2796, y: 432}
+    spritePosition: {x: 1981, y: 2468}
+  - name: <Path> - Pixel Layer
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3913
+      y: 440
+      width: 84
+      height: 84
+    spriteID: 9493a9b4220d8aa46b0d8570430ada5d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3913, y: 440}
+    spritePosition: {x: 2400, y: 2460}
+  - name: <Path> - Pixel Layer
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3821
+      y: 440
+      width: 84
+      height: 89
+    spriteID: edcef69341d551743addffbc80067d8c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3821, y: 440}
+    spritePosition: {x: 2400, y: 2315}
+  - name: exit icon
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1780
+      y: 923
+      width: 166
+      height: 174
+    spriteID: 991ff9124f4f02f45a05863e3369f41d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1780, y: 923}
+    spritePosition: {x: 2472, y: 2584}
+  - name: <Rectangle> - Pixel Layer kopya 12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1400
+      y: 4
+      width: 690
+      height: 533
+    spriteID: 2b70e6b2d7853b54199fd1b4347d7768
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1400, y: 4}
+    spritePosition: {x: 1907, y: 2171}
+  - name: pngwing.com (36) kopya 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 926
+      y: 1243
+      width: 299
+      height: 275
+    spriteID: 7bac50c607831a64888cd21516653fcf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 926, y: 1243}
+    spritePosition: {x: 2417, y: 621}
+  - name: pngwing.com (36) kopya 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1233
+      y: 1243
+      width: 299
+      height: 275
+    spriteID: 23fb8bf8aae17984f836b9cdd3877cb6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1233, y: 1243}
+    spritePosition: {x: 1754, y: 621}
+  - name: pngwing.com (36) kopya 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2894
+      y: 1243
+      width: 298
+      height: 262
+    spriteID: a0aec363b683c304780a266a245f06bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2894, y: 1243}
+    spritePosition: {x: 2085, y: 625}
+  - name: ' LETRY'
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1549
+      width: 363
+      height: 207
+    spriteID: 44d319760c3e3ee4ebe89a0138ab1b0a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1549}
+    spritePosition: {x: 2284, y: 367}
+  - name: Quit kopya
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 375
+      y: 1549
+      width: 363
+      height: 207
+    spriteID: 2aad846a90926a740bc04d4dc9e016d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 375, y: 1549}
+    spritePosition: {x: 1871, y: 367}
+  - name: TRY AGAIN
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2920
+      y: 670
+      width: 430
+      height: 245
+    spriteID: 2f58e84fe77b97645b608e78b6123ad1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2920, y: 670}
+    spritePosition: {x: 2047, y: 868}
+  - name: <Rectangle> - Pixel Layer kopya
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3358
+      y: 670
+      width: 430
+      height: 245
+    spriteID: 181fae409a6afb64da86bc2bb4a6f307
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3358, y: 670}
+    spritePosition: {x: 2047, y: 868}
+  - name: exit icon
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2044
+      y: 923
+      width: 166
+      height: 174
+    spriteID: b9f6f215c8abceb469f9a433c0aca645
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2044, y: 923}
+    spritePosition: {x: 2492, y: 911}
+  - name: <Rectangle> - Pixel Layer kopya 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2098
+      y: 4
+      width: 690
+      height: 533
+    spriteID: 49def07054e9bfa48ba9f9e90389e11b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2098, y: 4}
+    spritePosition: {x: 1919, y: 490}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Windows Store Apps
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Grup 6
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: f9ce6e231a08e1942aea36849d2f775a
+    layerID: 764
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: <Rectangle> - Pixel Layer
+    spriteName: <Rectangle> - Pixel Layer
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 20023c39cc9568d4ba172dc72386b79f
+    layerID: 763
+    mosaicPosition: {x: 3358, y: 923}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Katman 12
+    spriteName: Katman 12
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 7e4e1b757821de24a94a389bfb80e1ce
+    layerID: 762
+    mosaicPosition: {x: 3257, y: 251}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "Parlakl\u0131k/Kontrast 1"
+    spriteName: "Parlakl\u0131k/Kontrast 1"
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 1cb68dae23f881b498b0b83b7fe1bab3
+    layerID: 761
+    mosaicPosition: {x: 3257, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Grup 7
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 1d856e0c7292b6349babc8db064efd1f
+    layerID: 766
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: <Rectangle> - Pixel Layer kopya 3
+    spriteName: <Rectangle> - Pixel Layer kopya 3
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 9ba876665afc10b45a932a4f828c8497
+    layerID: 773
+    mosaicPosition: {x: 1606, y: 670}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: <Rectangle> - Pixel Layer
+    spriteName: <Rectangle> - Pixel Layer
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 580da5c74145f4a4a8570135b45baab0
+    layerID: 770
+    mosaicPosition: {x: 1540, y: 1243}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: pngwing.com (36) kopya 3
+    spriteName: pngwing.com (36) kopya 3
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 23f535e85fb9227409c7b3a89b5c70e9
+    layerID: 777
+    mosaicPosition: {x: 1976, y: 1243}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: pngwing.com (36)
+    spriteName: pngwing.com (36)
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 4b7288aba2f48ab43897e19c792be8f6
+    layerID: 776
+    mosaicPosition: {x: 2282, y: 1243}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: <Path> - Pixel Layer kopya 5
+    spriteName: <Path> - Pixel Layer kopya 5
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 947506b462014814e97014ba158c64ad
+    layerID: 758
+    mosaicPosition: {x: 4, y: 1243}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: <Compound Path> - Pixel Layer kopya
+    spriteName: <Compound Path> - Pixel Layer kopya
+    isGroup: 0
+    parentIndex: 4
+    spriteID: f3f965624770bb04e9c5d08877349908
+    layerID: 505
+    mosaicPosition: {x: 2218, y: 923}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: <Path> - Pixel Layer
+    spriteName: <Path> - Pixel Layer
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 3cc9f0750a2dcd04285eb3b071686c19
+    layerID: 261
+    mosaicPosition: {x: 746, y: 1549}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: <Path> - Pixel Layer
+    spriteName: <Path> - Pixel Layer
+    isGroup: 0
+    parentIndex: 4
+    spriteID: de93fabe8fe4e0341b369f5324829e53
+    layerID: 257
+    mosaicPosition: {x: 2482, y: 923}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: exit icon
+    spriteName: exit icon
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 34de25f23a842ae4ba41555947564784
+    layerID: 740
+    mosaicPosition: {x: 3845, y: 923}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: 'chapter transition screen '
+    spriteName: 'chapter transition screen '
+    isGroup: 0
+    parentIndex: 4
+    spriteID: a4ca92d35ed366942bac55b8f0cce1a7
+    layerID: 737
+    mosaicPosition: {x: 2796, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: <Rectangle> - Pixel Layer
+    spriteName: <Rectangle> - Pixel Layer
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 29a982ec475bca64eb0999ede12c019e
+    layerID: 736
+    mosaicPosition: {x: 545, y: 545}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: <Rectangle> - Pixel Layer kopya 4
+    spriteName: <Rectangle> - Pixel Layer kopya 4
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 899aa92fc28758348b3b7d376785cb4c
+    layerID: 735
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Grup 8
+    spriteName: 
+    isGroup: 1
+    parentIndex: 4
+    spriteID: 998b84bac3c333f478b8261eecaa189f
+    layerID: 802
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Katman 13
+    spriteName: Katman 13
+    isGroup: 0
+    parentIndex: 4
+    spriteID: fea53bdc45a97564d8bc417b3e29b8ea
+    layerID: 782
+    mosaicPosition: {x: 1065, y: 545}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: <Rectangle> - Pixel Layer kopya 5
+    spriteName: <Rectangle> - Pixel Layer kopya 5
+    isGroup: 0
+    parentIndex: 4
+    spriteID: f853f47ac2ad41c48938c2505632ec03
+    layerID: 733
+    mosaicPosition: {x: 4, y: 545}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: loading screen
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 356391e9b8789574891a09046dc51025
+    layerID: 755
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Grup 5
+    spriteName: 
+    isGroup: 1
+    parentIndex: 20
+    spriteID: 32ce95e653745a64c8aaa24ab8c50f59
+    layerID: 759
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: <Path> - Pixel Layer kopya 3
+    spriteName: <Path> - Pixel Layer kopya 3
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 94d102182390e3542875721faed046e9
+    layerID: 754
+    mosaicPosition: {x: 3982, y: 670}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: <Path> - Pixel Layer kopya 3
+    spriteName: <Path> - Pixel Layer kopya 3
+    isGroup: 0
+    parentIndex: 21
+    spriteID: f87b36c59d1f3054eb85bbe75b140687
+    layerID: 753
+    mosaicPosition: {x: 3982, y: 786}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: <Path> - Pixel Layer kopya 2
+    spriteName: <Path> - Pixel Layer kopya 2
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 6ff173dd4166c04469fa0e49efd990d5
+    layerID: 752
+    mosaicPosition: {x: 3942, y: 1243}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: <Path> - Pixel Layer kopya
+    spriteName: <Path> - Pixel Layer kopya
+    isGroup: 0
+    parentIndex: 21
+    spriteID: c92b4758f44178a478f26b5479ef3c02
+    layerID: 751
+    mosaicPosition: {x: 3942, y: 1359}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: <Path> - Pixel Layer kopya 4
+    spriteName: <Path> - Pixel Layer kopya 4
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 1299e3ee030d4884d99dd6a9a796bce4
+    layerID: 750
+    mosaicPosition: {x: 3879, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: <Path> - Pixel Layer
+    spriteName: <Path> - Pixel Layer
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 5f1315b8da4744c4db9f0161717fb4f7
+    layerID: 749
+    mosaicPosition: {x: 2920, y: 923}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: <Rectangle> - Pixel Layer
+    spriteName: <Rectangle> - Pixel Layer
+    isGroup: 0
+    parentIndex: 20
+    spriteID: 25907c4dade00b44da8d91e1631afd4f
+    layerID: 748
+    mosaicPosition: {x: 1065, y: 1107}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Katman 11
+    spriteName: Katman 11
+    isGroup: 0
+    parentIndex: 20
+    spriteID: 36bba67304ba9c24296e77ea47c3cacb
+    layerID: 747
+    mosaicPosition: {x: 2596, y: 545}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: <Rectangle> - Pixel Layer
+    spriteName: <Rectangle> - Pixel Layer
+    isGroup: 0
+    parentIndex: 20
+    spriteID: 782772f369787f846ba3508198762109
+    layerID: 746
+    mosaicPosition: {x: 1606, y: 545}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: ikon 1
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 5b901a86f88351349b9bd067f56bafb4
+    layerID: 744
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Katman 10
+    spriteName: Katman 10
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 2d7d39e36c574d24584bbc17e075a97a
+    layerID: 743
+    mosaicPosition: {x: 3821, y: 251}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Katman 9
+    spriteName: Katman 9
+    isGroup: 0
+    parentIndex: 31
+    spriteID: bf203feee5a8c3148bf8222d7e0261f2
+    layerID: 742
+    mosaicPosition: {x: 2656, y: 923}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "Parlakl\u0131k/Kontrast 3"
+    spriteName: "Parlakl\u0131k/Kontrast 3"
+    isGroup: 0
+    parentIndex: 31
+    spriteID: a660ef9e37e46ef45b5ee7d8a4aefda8
+    layerID: 741
+    mosaicPosition: {x: 3796, y: 670}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Complete!
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 0401a3809b844004ba6e8ff5c59ce834
+    layerID: 730
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Grup 4
+    spriteName: 
+    isGroup: 1
+    parentIndex: 35
+    spriteID: a7f04a2945c081f449e1728e7f83798d
+    layerID: 728
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: pngwing.com (36) kopya 2
+    spriteName: pngwing.com (36) kopya 2
+    isGroup: 0
+    parentIndex: 36
+    spriteID: ee0a6ea9b42ebfd4db5b357df7b075c6
+    layerID: 727
+    mosaicPosition: {x: 312, y: 1243}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: pngwing.com (36) kopya
+    spriteName: pngwing.com (36) kopya
+    isGroup: 0
+    parentIndex: 36
+    spriteID: cd3b59c8f1a2d2042ad66f28dbbeac01
+    layerID: 726
+    mosaicPosition: {x: 619, y: 1243}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: pngwing.com (36)
+    spriteName: pngwing.com (36)
+    isGroup: 0
+    parentIndex: 36
+    spriteID: adf96279e0693a2469b9a12bae64a4b1
+    layerID: 725
+    mosaicPosition: {x: 2588, y: 1243}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Complete!
+    spriteName: Complete!
+    isGroup: 0
+    parentIndex: 35
+    spriteID: 58f64f8ec75865b4eb97082f46f24fb3
+    layerID: 724
+    mosaicPosition: {x: 2044, y: 670}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: level
+    spriteName: level
+    isGroup: 0
+    parentIndex: 35
+    spriteID: 5e2e71b920813a043bd5fa60da066f5b
+    layerID: 719
+    mosaicPosition: {x: 3200, y: 1243}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Quit
+    spriteName: Quit
+    isGroup: 0
+    parentIndex: 35
+    spriteID: ab4ca7b74f6d6af47bdb2f48bf5450c8
+    layerID: 713
+    mosaicPosition: {x: 3571, y: 1243}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: exit icon
+    spriteName: exit icon
+    isGroup: 0
+    parentIndex: 35
+    spriteID: 8008e9e8b5ec45f4a983afd862554735
+    layerID: 779
+    mosaicPosition: {x: 1606, y: 923}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: <Rectangle> - Pixel Layer kopya 7
+    spriteName: <Rectangle> - Pixel Layer kopya 7
+    isGroup: 0
+    parentIndex: 35
+    spriteID: a8d0142175147c047a75ebbb06f6491a
+    layerID: 708
+    mosaicPosition: {x: 702, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Settings
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 034f1dd43b91b8a49afeb4d27225b4c8
+    layerID: 705
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Settings kopya 2
+    spriteName: Settings kopya 2
+    isGroup: 0
+    parentIndex: 45
+    spriteID: 705ce034493d7194b8a2178676cc4230
+    layerID: 692
+    mosaicPosition: {x: 2482, y: 670}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: 1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 45
+    spriteID: eff1b67ad8179f347985c368416ac750
+    layerID: 699
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Katman 8 kopya
+    spriteName: Katman 8 kopya
+    isGroup: 0
+    parentIndex: 47
+    spriteID: 8bacc05fc6e6ba843a3e5d865670139b
+    layerID: 698
+    mosaicPosition: {x: 3150, y: 432}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: <Rectangle> - Pixel Layer kopya 13
+    spriteName: <Rectangle> - Pixel Layer kopya 13
+    isGroup: 0
+    parentIndex: 47
+    spriteID: f6c6b5feacbc73441903e7a94fd18367
+    layerID: 697
+    mosaicPosition: {x: 3200, y: 1458}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Katman 6 kopya
+    spriteName: Katman 6 kopya
+    isGroup: 0
+    parentIndex: 47
+    spriteID: 10fd434ed6e54bc4fb5904b9d10aad93
+    layerID: 696
+    mosaicPosition: {x: 1540, y: 1438}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: 1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 45
+    spriteID: 71ebbde2ebff76a4a97ce0a2bd36bf36
+    layerID: 693
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Katman 8 kopya
+    spriteName: Katman 8 kopya
+    isGroup: 0
+    parentIndex: 51
+    spriteID: fc543a15cb608fd47ae625102f8867ff
+    layerID: 679
+    mosaicPosition: {x: 2812, y: 923}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: <Rectangle> - Pixel Layer kopya 13
+    spriteName: <Rectangle> - Pixel Layer kopya 13
+    isGroup: 0
+    parentIndex: 51
+    spriteID: 4f6201dc678b18c42bac3dace37fa0fa
+    layerID: 678
+    mosaicPosition: {x: 3571, y: 1458}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Katman 6 kopya
+    spriteName: Katman 6 kopya
+    isGroup: 0
+    parentIndex: 51
+    spriteID: 7396bfe8989a2cc4aa0cab3bb10c0743
+    layerID: 677
+    mosaicPosition: {x: 2796, y: 432}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: <Path> - Pixel Layer
+    spriteName: <Path> - Pixel Layer
+    isGroup: 0
+    parentIndex: 45
+    spriteID: 9493a9b4220d8aa46b0d8570430ada5d
+    layerID: 675
+    mosaicPosition: {x: 3913, y: 440}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: <Path> - Pixel Layer
+    spriteName: <Path> - Pixel Layer
+    isGroup: 0
+    parentIndex: 45
+    spriteID: edcef69341d551743addffbc80067d8c
+    layerID: 674
+    mosaicPosition: {x: 3821, y: 440}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: exit icon
+    spriteName: exit icon
+    isGroup: 0
+    parentIndex: 45
+    spriteID: 991ff9124f4f02f45a05863e3369f41d
+    layerID: 778
+    mosaicPosition: {x: 1780, y: 923}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: <Rectangle> - Pixel Layer kopya 12
+    spriteName: <Rectangle> - Pixel Layer kopya 12
+    isGroup: 0
+    parentIndex: 45
+    spriteID: 2b70e6b2d7853b54199fd1b4347d7768
+    layerID: 672
+    mosaicPosition: {x: 1400, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: TRY AGAIN
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: e25f9af212a68be4793bfb9b6467a220
+    layerID: 667
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Grup 3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 59
+    spriteID: ad46827affd55dc4092b0f0696af5e70
+    layerID: 669
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: pngwing.com (36) kopya 3
+    spriteName: pngwing.com (36) kopya 3
+    isGroup: 0
+    parentIndex: 60
+    spriteID: 7bac50c607831a64888cd21516653fcf
+    layerID: 666
+    mosaicPosition: {x: 926, y: 1243}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: pngwing.com (36) kopya 3
+    spriteName: pngwing.com (36) kopya 3
+    isGroup: 0
+    parentIndex: 60
+    spriteID: 23fb8bf8aae17984f836b9cdd3877cb6
+    layerID: 665
+    mosaicPosition: {x: 1233, y: 1243}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: pngwing.com (36) kopya 3
+    spriteName: pngwing.com (36) kopya 3
+    isGroup: 0
+    parentIndex: 60
+    spriteID: a0aec363b683c304780a266a245f06bb
+    layerID: 664
+    mosaicPosition: {x: 2894, y: 1243}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: ' LETRY'
+    spriteName: ' LETRY'
+    isGroup: 0
+    parentIndex: 59
+    spriteID: 44d319760c3e3ee4ebe89a0138ab1b0a
+    layerID: 663
+    mosaicPosition: {x: 4, y: 1549}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Quit kopya
+    spriteName: Quit kopya
+    isGroup: 0
+    parentIndex: 59
+    spriteID: 2aad846a90926a740bc04d4dc9e016d6
+    layerID: 658
+    mosaicPosition: {x: 375, y: 1549}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: TRY AGAIN
+    spriteName: TRY AGAIN
+    isGroup: 0
+    parentIndex: 59
+    spriteID: 2f58e84fe77b97645b608e78b6123ad1
+    layerID: 653
+    mosaicPosition: {x: 2920, y: 670}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: <Rectangle> - Pixel Layer kopya
+    spriteName: <Rectangle> - Pixel Layer kopya
+    isGroup: 0
+    parentIndex: 59
+    spriteID: 181fae409a6afb64da86bc2bb4a6f307
+    layerID: 649
+    mosaicPosition: {x: 3358, y: 670}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: exit icon
+    spriteName: exit icon
+    isGroup: 0
+    parentIndex: 59
+    spriteID: b9f6f215c8abceb469f9a433c0aca645
+    layerID: 780
+    mosaicPosition: {x: 2044, y: 923}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: <Rectangle> - Pixel Layer kopya 2
+    spriteName: <Rectangle> - Pixel Layer kopya 2
+    isGroup: 0
+    parentIndex: 59
+    spriteID: 49def07054e9bfa48ba9f9e90389e11b
+    layerID: 647
+    mosaicPosition: {x: 2098, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
