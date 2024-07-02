@@ -467,19 +467,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 17c350171f7a3ca479f830547c66d187, type: 3}
+  m_Texture: {fileID: 2800000, guid: e3e9d7cfdf03b3548bd8dfb7a5d16d62, type: 3}
   m_UVRect:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
+    x: -0.48
+    y: 0.31
+    width: 1.43
+    height: 0.2
 --- !u!222 &1515112348
 CanvasRenderer:
   m_ObjectHideFlags: 0
