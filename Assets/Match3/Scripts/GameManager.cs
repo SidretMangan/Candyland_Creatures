@@ -202,6 +202,10 @@ public class GameManager : Singleton<GameManager>
 		if (m_board != null)
 		{
 			m_board.SetupBoard();
+			if (m_levelGoalAnimal)
+			{
+				m_levelGoalAnimal.InitializeAnimal();
+			}
 		}
 	}
 
