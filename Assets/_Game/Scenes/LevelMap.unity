@@ -402,7 +402,7 @@ GameObject:
   - component: {fileID: 55938838}
   - component: {fileID: 55938837}
   m_Layer: 5
-  m_Name: Lvl1Btn (8)
+  m_Name: Lvl9Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -613,7 +613,7 @@ GameObject:
   - component: {fileID: 114577186}
   - component: {fileID: 114577185}
   m_Layer: 5
-  m_Name: Lvl1Btn (4)
+  m_Name: Lvl5Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1031,7 +1031,7 @@ GameObject:
   - component: {fileID: 296307052}
   - component: {fileID: 296307051}
   m_Layer: 5
-  m_Name: Lvl1Btn (5)
+  m_Name: Lvl6Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1377,7 +1377,7 @@ GameObject:
   - component: {fileID: 367932963}
   - component: {fileID: 367932962}
   m_Layer: 5
-  m_Name: Lvl1Btn (7)
+  m_Name: Lvl8Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1971,7 +1971,7 @@ GameObject:
   - component: {fileID: 571157832}
   - component: {fileID: 571157831}
   m_Layer: 5
-  m_Name: Lvl1Btn (6)
+  m_Name: Lvl7Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2451,7 +2451,7 @@ GameObject:
   - component: {fileID: 910876060}
   - component: {fileID: 910876059}
   m_Layer: 5
-  m_Name: Lvl1Btn (1)
+  m_Name: Lvl2Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3378,7 +3378,7 @@ GameObject:
   - component: {fileID: 1639607699}
   - component: {fileID: 1639607698}
   m_Layer: 5
-  m_Name: Lvl1Btn (3)
+  m_Name: Lvl4Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3992,7 +3992,7 @@ GameObject:
   - component: {fileID: 1992446108}
   - component: {fileID: 1992446107}
   m_Layer: 5
-  m_Name: Lvl1Btn (2)
+  m_Name: Lvl3Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4203,7 +4203,7 @@ GameObject:
   - component: {fileID: 2054367285}
   - component: {fileID: 2054367284}
   m_Layer: 5
-  m_Name: Lvl1Btn (9)
+  m_Name: Lvl10Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
