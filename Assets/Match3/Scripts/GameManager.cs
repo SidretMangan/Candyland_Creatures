@@ -297,25 +297,30 @@ public class GameManager : Singleton<GameManager>
 
 	void ShowWinScreen()
 	{
+        if (UIManager.Instance != null && UIManager.Instance.gameOverlay != null)
+        {
+            UIManager.Instance.gameOverlay.LosePanel.SetActive(false);
+            UIManager.Instance.gameOverlay.InfoPanel.SetActive(false);
+            UIManager.Instance.gameOverlay.WinPanel.SetActive(true);
+        }
+  //      if (UIManager.Instance != null && UIManager.Instance.messageWindow != null)
+		//{
+		//	UIManager.Instance.messageWindow.GetComponent<RectXformMover>().MoveOn();
+		//	UIManager.Instance.messageWindow.ShowWinMessage();
+		//	UIManager.Instance.messageWindow.ShowCollectionGoal(false);
 
-		if (UIManager.Instance != null && UIManager.Instance.messageWindow != null)
-		{
-			UIManager.Instance.messageWindow.GetComponent<RectXformMover>().MoveOn();
-			UIManager.Instance.messageWindow.ShowWinMessage();
-			UIManager.Instance.messageWindow.ShowCollectionGoal(false);
+		//	if (ScoreManager.Instance != null)
+		//	{
+		//		string scoreStr = "you scored\n" + ScoreManager.Instance.CurrentScore.ToString() + " points!";
+		//		UIManager.Instance.messageWindow.ShowGoalCaption(scoreStr, 0, 70);
+		//	}
 
-			if (ScoreManager.Instance != null)
-			{
-				string scoreStr = "you scored\n" + ScoreManager.Instance.CurrentScore.ToString() + " points!";
-				UIManager.Instance.messageWindow.ShowGoalCaption(scoreStr, 0, 70);
-			}
+		//	if (UIManager.Instance.messageWindow.goalCompleteIcon != null)
+		//	{
+		//		UIManager.Instance.messageWindow.ShowGoalImage(UIManager.Instance.messageWindow.goalCompleteIcon);
+		//	}
 
-			if (UIManager.Instance.messageWindow.goalCompleteIcon != null)
-			{
-				UIManager.Instance.messageWindow.ShowGoalImage(UIManager.Instance.messageWindow.goalCompleteIcon);
-			}
-
-		}
+		//}
 
 		if (SoundManager.Instance != null)
 		{
@@ -353,7 +358,8 @@ public class GameManager : Singleton<GameManager>
 		{
 			UIManager.Instance.gameOverlay.LosePanel.SetActive(true);
 			UIManager.Instance.gameOverlay.InfoPanel.SetActive(false);
-		}
+            UIManager.Instance.gameOverlay.WinPanel.SetActive(false);
+        }
 
 		if (SoundManager.Instance != null)
 		{

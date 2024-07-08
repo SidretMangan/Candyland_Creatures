@@ -98,7 +98,7 @@ public class LevelGoalAnimal : LevelGoal
 	{
 		if (animal.animation)
 		{
-			animal.animation.transform.localScale = Camera.main.orthographicSize * Vector3.one / 8f;
+			animal.animation.transform.localScale = Camera.main.orthographicSize * Vector3.one / 16f;
 			animal.animation.transform.position = 
 				Vector3.Scale(Camera.main.transform.position, new(1f, 1f, 0f)) 
 				+ Vector3.up * (animal.animation.GetComponent<SpriteRenderer>().bounds.size.y / 2f);

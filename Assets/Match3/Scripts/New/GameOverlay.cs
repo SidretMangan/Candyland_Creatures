@@ -6,15 +6,20 @@ using UnityEngine.UI;
 
 public class GameOverlay : MonoBehaviour
 {
-	public GameObject LosePanel, InfoPanel;
+	public GameObject LosePanel, InfoPanel,WinPanel;
 
 	public Button retryButton;
+	public Button levelMapButton;
 
-	private void Awake()
+    private void Awake()
 	{
 		retryButton.onClick.AddListener(() =>
 		{
 			SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 		});
-	}
+        levelMapButton.onClick.AddListener(() =>
+        {
+            SceneManager.LoadScene("LevelMap");
+        });
+    }
 }
